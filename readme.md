@@ -1,1 +1,1 @@
-KateReen Kyle V. Rigdao, 1st year, BSIT 1-1
+Kate-Reen Kyle Rigdao, 1st year, 1-1
