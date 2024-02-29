@@ -3,12 +3,24 @@
 <head>
     <title>Login</title>
     <style>
-        #divContainer {
+        body{
+            background-color: aqua;
+        }
+        
+        #Container {
             text-align: center;
         }
 
+        #txtPassword:hover {
+            background-color: #da6c6c;
+        }
+
+        #txtUsername:hover {
+            background-color: #da6c6c;
+        }
+
         .redText {
-            color: red;
+            color: rgb(131, 230, 187);
             background-color: rgb(red, green, blue);
         }
 
@@ -17,8 +29,11 @@
         }
 
         #btnLogin {
+            background-color: lightcoral;
+        }
+        #btnLogin:hover{
             font-size: large;
-            color: red;
+            color: #89ef8e;
         }
 
         #btnLogin.redText:hover {
@@ -27,6 +42,8 @@
             color: aqua;
 
         }
+        
+
     </style>
 </head>
     <body>
@@ -38,6 +55,7 @@
             <input type="text" placeholder="Password" id="txtPassword" class="redText">
             <div style="margin-top: 1rem;">
                 <button id="btnlogin">Login</button>
+                <button id="btnRegister">Register</button>
             </div>
         </div>
     </body>
